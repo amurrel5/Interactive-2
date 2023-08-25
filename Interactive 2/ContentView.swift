@@ -21,7 +21,7 @@ struct ContentView: View {
                 .font(.title)
                 .foregroundColor(Color.purple)
             
-            TextField("Type Name Here", text: $name)
+            TextField("Type Names Here", text: $name)
                 
                 .multilineTextAlignment(.center)
                 .font(/*@START_MENU_TOKEN@*/.title3/*@END_MENU_TOKEN@*/)
